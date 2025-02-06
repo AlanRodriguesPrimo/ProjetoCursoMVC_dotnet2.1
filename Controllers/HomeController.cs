@@ -17,7 +17,8 @@ namespace ProjetoFinalMVC_Sales.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles Web MVC App From C# Couse";
+            ViewData["Professor"] = "Nelio Alves";
 
             return View();
         }
